@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{27AF0022-3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.Domain", "scr\BookingApp.Domain\BookingApp.Domain.csproj", "{7A439C5C-F2BC-4D01-B80C-0CD5114AC78E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Application", "scr\BookingApp.Application\BookingApp.Application.csproj", "{AADDF300-01A9-43DA-B173-4A0FFE630A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.Application", "scr\BookingApp.Application\BookingApp.Application.csproj", "{AADDF300-01A9-43DA-B173-4A0FFE630A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Infrastructure", "scr\BookingApp.Infrastructure\BookingApp.Infrastructure.csproj", "{508683B9-63F2-4EF9-9FDA-5C6A3BA31197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{AADDF300-01A9-43DA-B173-4A0FFE630A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADDF300-01A9-43DA-B173-4A0FFE630A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AADDF300-01A9-43DA-B173-4A0FFE630A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508683B9-63F2-4EF9-9FDA-5C6A3BA31197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508683B9-63F2-4EF9-9FDA-5C6A3BA31197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508683B9-63F2-4EF9-9FDA-5C6A3BA31197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508683B9-63F2-4EF9-9FDA-5C6A3BA31197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7A439C5C-F2BC-4D01-B80C-0CD5114AC78E} = {CF47F793-6113-4EEA-B6D2-5FF544090F16}
 		{AADDF300-01A9-43DA-B173-4A0FFE630A00} = {CF47F793-6113-4EEA-B6D2-5FF544090F16}
+		{508683B9-63F2-4EF9-9FDA-5C6A3BA31197} = {CF47F793-6113-4EEA-B6D2-5FF544090F16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCD1BE51-680F-43FA-B733-955651004C75}
