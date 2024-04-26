@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  bookingapp.api:
+    image: ${DOCKER_REGISTRY-}bookingappapi
+    container_name: BookingApp.Api
+    build:
+      context: .
+      dockerfile: scr/BookingApp.Api/Dockerfile
+    depends_on:
+      - bookingapp-db
+
+  bookingapp-db:
+    image: postgres:latest
+    container_name: BookingApp.Db
+    environment:
+      - POSTGRES_DB=bookingapp
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./.containers/database:/var/lib/postgresql/data
+    ports:
+      - 5432:5432 
